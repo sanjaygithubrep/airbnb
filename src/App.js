@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './component/Header'
+import Carousal from './component/Carousal'
+import Button from './component/Button'
+import Trip from './component/Trip'
+import Seller from './component/Seller'
+import Seller2 from './component/Seller2'
+// import firebase from "firebase/compat/app";
+// import "firebase/compat/firestore";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Carousal />
+      <Button />
+      <Trip />
+      <Seller />
+      <Seller2 />
+      
+      
+      
     </div>
   );
 }
